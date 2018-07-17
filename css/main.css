@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    position: relative;
+    left: 50px;
+}
+
+.ap_title h3 {
+    font-size: 35px;
+    color: #4a6380;
+    margin-top: 40px;
+}
+
+.choice_way_transport button, .choice_way_weight button, .links_lists button {
+    padding: 10px 10px;
+    background-color: #e2e3e5;
+    color: #c3c4c6;
+    border: none;
+    cursor: pointer;
+}
+
+.choice_way_transport button:hover, .choice_way_weight button:hover, .links_lists button:hover {
+    padding: 10px 10px;
+    background-color: #00a1e5;
+    color: #fff;
+    border: none;
+}
+
+.choice_way_transport, .choice_way_weight {
+    padding-top: 15px;
+}
+
+.address {
+    margin-top: 140px;
+}
+
+.name_dis {
+    background-color: #00a1e5;
+    width: 250px;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.name_dis span {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.dispatch {
+    margin-top: 30px;
+}
+
+.dispatch_bl {
+    background: #d3eef5;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+.dispatch_bl .list, .dispatch_bl_info, .wrp_lists {
+    width: 93%;
+    margin: 0 auto;
+    display: block;
+}
+
+.wrp_lists {
+    padding-bottom: 20px;
+}
+
+.dispatch_bl .list {
+    height: 44px;
+    background: #fff;
+    padding-left: 2%;
+}
+
+.dispatch_bl_info {
+    margin-top: 10px;
+}
+
+.dispatch_bl_info input, .dispatch_bl_info .day {
+    padding: 12px 22px;
+    background: #fff;
+}
+
+.dispatch_bl_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_take {
+    width: 91%;
+    display: block;
+    margin: 10px auto;
+    height: 38px;
+    padding-left: 2%;
+}
+
+.btn_address {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #00a1e5;
+}
+
+.order {
+    background: #d3eef5;
+    font-size: 35px;
+}
+
+.wrp_order {
+    padding: 40px 0 ;
+    padding-top: 15px;
+}
+
+.order_dinamic button{
+    padding: 15px 44px;
+    font-size: 20px;
+    background: #e32026;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+}
+
+.order_dinamic span {
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 30px;
+    color: #b0bec1;
+}
+
+.wrp_order h4 {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.ap_title .container {
+    position: relative;
+}
+
+.ap_title .container:before {
+    content: "";
+    position: absolute;
+    width: 135px;
+    height: 95px;
+    left: -141px;
+    background: url(../images/logo.png);
+    background-size: 100% 100%;
+}
